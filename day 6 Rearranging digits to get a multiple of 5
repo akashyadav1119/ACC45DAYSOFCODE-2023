@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int n,f=0;
+        std::cin >> n;
+        char arr[n];
+        for (int i = 0; i < n; i++) {
+            std::cin >> arr[i];
+            if(arr[i]=='0'||arr[i]=='5'){
+                f=1;
+            }
+        }
+        if(f==1){
+            std::cout << "yes" << std::endl;
+        }
+        else
+            std::cout << "no" << std::endl;
+    }
+	return 0;
+}
