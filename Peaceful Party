@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	std::cin >> t;
+	while(t--){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    if(a+c>=b){
+	        std::cout << a+c << std::endl;
+	    }
+	    else
+	        std::cout << b << std::endl;
+	}
+	return 0;
+}
